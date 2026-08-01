@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.zentist.io/
+url: https://trust.zentist.io/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://trust.zentist.io/
+  keywords:
+  - soc 2
+  - hipaa
+  - trust center

@@ -1,9 +1,28 @@
 aid: zentist
 name: Zentist
-description: Zentist is a company surfaced as a portfolio company of 500-global, point-nine and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Zentist is a cloud-based revenue cycle management (RCM) platform built
+  specifically for dental support organizations (DSOs) and multi-location dental practices.
+  Its flagship product, Remit AI, uses artificial intelligence to automate electronic
+  remittance advice (ERA) and explanation of benefits (EOB) parsing, payment posting,
+  denial and adjustment categorization, and claims status tracking, while Cavi AR
+  drives intelligent accounts-receivable follow-up. Executive dashboards deliver practice-level
+  and organization-wide analytics. Trusted by more than 400 DSOs, Zentist reports doubling
+  RCM productivity and cutting the cash-to-claim cycle in half within the first 100
+  days. This profile is maintained in the API Evangelist network; Zentist operates
+  as a login-gated SaaS application with no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/zentist/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/64710498?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Dental
+- Revenue Cycle Management
+- Healthcare IT
+- Claims Processing
+- Payments
+- Insurance
+- SaaS
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://zentist.io
+- type: Blog
+  url: https://zentist.io/blog
+- type: SignUp
+  url: https://app.zentist.io/auth/login
+- type: Login
+  url: https://app.zentist.io/auth/login
+- type: PrivacyPolicy
+  url: https://zentist.io/privacy
+- type: Support
+  url: mailto:support@zentist.io
+- type: GitHubOrganization
+  url: https://github.com/zentist
+- type: TrustCenter
+  url: security/zentist-trust-center.yml
+- type: Compliance
+  url: https://trust.zentist.io/
+- type: DomainSecurity
+  url: security/zentist-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
