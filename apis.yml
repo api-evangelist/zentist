@@ -11,6 +11,17 @@ description: Zentist is a cloud-based revenue cycle management (RCM) platform bu
   days. This profile is maintained in the API Evangelist network; Zentist operates
   as a login-gated SaaS application with no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/zentist/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
